@@ -1,0 +1,14 @@
+.git
+.gitignore
+README.md
+HELP.md
+**/node_modules
+**/dist
+**/build
+target
+**/.cache
+**/.vite
+.vscode
+.idea
+Dockerfile*
+docker-compose*.yml

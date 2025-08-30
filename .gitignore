@@ -1,0 +1,90 @@
+###############################################################################
+# OS junk
+###############################################################################
+.DS_Store
+Thumbs.db
+
+###############################################################################
+# Java / Maven / Spring Boot
+###############################################################################
+# Build output
+target/
+**/target/
+
+# Compiled class files & logs
+*.class
+*.log
+spring.log
+hs_err_pid*
+
+# Keep the Maven wrapper! (do NOT ignore .mvn/wrapper or the jar)
+#mvn wrapper files should be committed:
+# .mvn/wrapper/maven-wrapper.jar  <-- keep tracked
+# mvnw, mvnw.cmd                  <-- keep tracked
+
+###############################################################################
+# Node / Vite / Frontend artifacts (any frontend subfolder)
+###############################################################################
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+**/.cache/
+**/.parcel-cache/
+**/*.tsbuildinfo
+**/.eslintcache
+**/npm-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Common frontend test/coverage outputs
+coverage/
+.nyc_output/
+**/playwright-report/
+**/.playwright/
+**/cypress/videos/
+**/cypress/screenshots/
+
+###############################################################################
+# Environment files (keep examples)
+###############################################################################
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+
+###############################################################################
+# IDE & editor folders
+###############################################################################
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans & Gradle build dirs
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+**/build/
+
+###############################################################################
+# Misc
+###############################################################################
+HELP.md
